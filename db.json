@@ -1,0 +1,24 @@
+{
+    "todos":[
+        {
+            "id": 1,
+            "description": "Create my todo app",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "description": "Create my portfolio",
+            "completed": false
+        },
+        {
+            "id": 3,
+            "description": "Publish porftolio on github pages",
+            "completed": false
+        },
+        {
+            "id": 4,
+            "description": "Read through React again",
+            "completed": false
+        }
+    ]
+}
