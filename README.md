@@ -1,5 +1,5 @@
 # Task-List App
-This is a task for adding tasks you want to do.
+This is an app for tasks.
 
 ## Description
 This is an app that allows you to display your tasks, add new tasks, update your task upon completion and you can also delete the task.
