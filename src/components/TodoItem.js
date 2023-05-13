@@ -26,8 +26,8 @@ function handleDelete(){
 
 
   return (
-    <li>
-      <strong>{description}</strong>
+    <li className="list">
+      <span>{description}</span>
       <label className="item">
         Completed?
         <input type="checkbox" checked={completed} className="check" onChange={e => handleComplete(e.target.checked)}/>

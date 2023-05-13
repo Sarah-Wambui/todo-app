@@ -4,7 +4,6 @@ import TodoList from './TodoList';
 import NewTodo from './NewTodo';
 
 function App() {
-  const [isDark, setIsDark] = useState(false)
   const [todos, setTodos] = useState([])
 
 useEffect(()=>{
@@ -12,11 +11,6 @@ useEffect(()=>{
   .then(resp => resp.json())
   .then(data => setTodos(data))
 },[])
-
-function handleMode(){
-  setIsDark(!isDark)
-}
-const appClass= isDark ? "App dark" : "App light"
 
 
 function addTodo(newTodo){
@@ -42,13 +36,15 @@ setTodos(updatedTodos)
 
 
   return (
-    <div id="App" className={appClass} >
+    <div className="App" >
+      <div className="container">
       <header>
-        <h2>Task List</h2>
-        <button onClick={handleMode}>{isDark ? "Light Mode" : "Dark Mode"}</button>
+        <h1>Task List App</h1>
       </header>
       <NewTodo addTodo={addTodo}/>
       <TodoList todos={todos} updateTodo={updateTodo} deleteTodo={deleteTodo}/>
+      </div>
+      
       
     </div>
   );

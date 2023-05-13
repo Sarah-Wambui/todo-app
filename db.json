@@ -27,7 +27,7 @@
     },
     {
       "description": "Publish portfoio",
-      "completed": false,
+      "completed": true,
       "id": 12
     }
   ]

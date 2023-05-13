@@ -5,8 +5,8 @@ function TodoList({todos, updateTodo, deleteTodo}) {
 
   return (
     <div>
-      <h3>My Todos</h3>
-      <ul>
+      <h2>My Todos:</h2>
+      <ul className="todos">
         {todos.map((todo)=> (
           <TodoItem key={todo.id} todo={todo} updateTodo={updateTodo} deleteTodo={deleteTodo}/>
         ))}

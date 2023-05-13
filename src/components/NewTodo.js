@@ -26,9 +26,8 @@ fetch("http://localhost:3000/todos",{
 }
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="description">Description:</label>
-      <input type="text" onChange={handleChange} name="description" value={formData.description} placeholder="Add a NewTodo item..." required/>
-      <button type="submit">Add Todo</button>
+      <input type="text" className="new" onChange={handleChange} name="description" value={formData.description} placeholder="Add a New Todo..." required/>
+      <button type="submit" className="button">Add Todo</button>
     </form>
   )
 }
