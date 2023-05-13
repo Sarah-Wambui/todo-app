@@ -1,26 +1,6 @@
 {
   "todos": [
     {
-      "id": 1,
-      "description": "Create a new todo",
-      "completed": true
-    },
-    {
-      "id": 3,
-      "description": "Delete an existing todo",
-      "completed": true
-    },
-    {
-      "description": " Buy New Clothes",
-      "completed": true,
-      "id": 8
-    },
-    {
-      "description": "Cook Dinner",
-      "completed": true,
-      "id": 10
-    },
-    {
       "description": "Create Portfolio",
       "completed": true,
       "id": 11
@@ -29,6 +9,31 @@
       "description": "Publish portfoio",
       "completed": true,
       "id": 12
+    },
+    {
+      "description": "Buy Books",
+      "completed": true,
+      "id": 13
+    },
+    {
+      "description": "Create a Task List App",
+      "completed": true,
+      "id": 14
+    },
+    {
+      "description": "Create a commercial website",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "description": "Do Laundry",
+      "completed": false,
+      "id": 16
+    },
+    {
+      "description": "Cook Dinner",
+      "completed": false,
+      "id": 17
     }
   ]
 }
